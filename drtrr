@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Cuidado de la Piel</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        header {
+            background-color: #a8d5ba;
+            padding: 25px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav {
+            background-color: #6fb98f;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        section {
+            padding: 20px;
+        }
+        .card {
+            background-color: white;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        button {
+            background-color: #6fb98f;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #5aa57a;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>SkinCare Natural</h1>
+    <p>Cuida tu piel de forma saludable y natural</p>
+</header>
+
+<nav>
+    <a href="#inicio">Inicio</a>
+    <a href="#productos">Productos</a>
+    <a href="#consejos">Consejos</a>
+    <a href="#contacto">Contacto</a>
+</nav>
+
+<section id="inicio">
+    <div class="card">
+        <h2>Bienvenidos</h2>
+        <p>Somos una página dedicada al cuidado de la piel, ofreciendo información y productos que ayudan a mantener una piel sana, limpia y protegida.</p>
+    </div>
+</section>
+
+<section id="productos">
+    <div class="card">
+        <h2>Nuestros Productos</h2>
+        <ul>
+            <li>Cremas hidratantes</li>
+            <li>Limpiadores faciales</li>
+            <li>Protectores solares</li>
+            <li>Sérums naturales</li>
+        </ul>
+    </div>
+</section>
+
+<section id="consejos">
+    <div class="card">
+        <h2>Consejos para el cuidado de la piel</h2>
+        <p>✔ Limpia tu rostro diariamente.</p>
+        <p>✔ Usa protector solar todos los días.</p>
+        <p>✔ Mantente hidratado.</p>
+        <p>✔ Utiliza productos adecuados para tu tipo de piel.</p>
+        <button onclick="mostrarConsejo()">Ver consejo extra</button>
+        <p id="extra"></p
